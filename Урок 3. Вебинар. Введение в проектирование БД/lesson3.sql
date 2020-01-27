@@ -45,5 +45,3 @@ CREATE TABLE messages(
 	CONSTRAINT fk_from_user_id FOREIGN KEY (from_user_id) REFERENCES users(id),
 	CONSTRAINT fk_to_user_id FOREIGN KEY (to_user_id) REFERENCES users(id)
 );
-
-DROP TABLE IF EXISTS 
