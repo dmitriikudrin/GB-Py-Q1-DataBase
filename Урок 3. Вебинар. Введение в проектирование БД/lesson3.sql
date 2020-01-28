@@ -45,3 +45,18 @@ CREATE TABLE messages(
 	CONSTRAINT fk_from_user_id FOREIGN KEY (from_user_id) REFERENCES users(id),
 	CONSTRAINT fk_to_user_id FOREIGN KEY (to_user_id) REFERENCES users(id)
 );
+
+DROP TABLE IF EXISTS friend_requests;
+CREATE TABLE friend_requests(
+    initiator_user_id BIGINT UNSIGNED NOT NULL,
+    target_user_id BIGINT UNSIGNED NOT NULL,
+    `status` ENUM('requested', 'approved', 'unfriended', 'declined'),
+    requested_at DATETIME DEFAULT NOW(),
+    confirmed_at DATETIME,
+
+    PRIMARY KEY (initiator_user_id, target_user_id),
+    INDEX idx_initiator_user_id(initiator_user_id),
+    INDEX idx_target_user_id(target_user_id),
+    CONSTRAINT fk_initiator_user_id FOREIGN KEY (initiator_user_id) REFERENCES users(id),
+    CONSTRAINT fk_target_user_id FOREIGN KEY (target_user_id) REFERENCES users(id)
+)
