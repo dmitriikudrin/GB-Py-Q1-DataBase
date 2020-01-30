@@ -11,4 +11,9 @@ VALUES ('Ivan', 'Pupkin', 'pupkin1@example.ru', '9231234567'),
 
 INSERT INTO users (id, firstname, lastname, email, password_hash, phone)
 SELECT *
-FROM users_1;
+FROM users;
+
+
+SELECT DISTINCT *
+from users;
+
