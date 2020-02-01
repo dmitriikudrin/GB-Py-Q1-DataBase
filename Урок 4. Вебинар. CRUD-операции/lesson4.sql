@@ -9,7 +9,7 @@ VALUES ('Ivan', 'Pupkin', 'pupkin1@example.ru', '9231234567'),
        ('Ivan', 'Pupkin', 'pupkin6@example.ru', '9231234567');
 
 
-INSERT INTO users (id, firstname, lastname, email, password_hash, phone)
+INSERT IGNORE INTO users (id, firstname, lastname, email, password_hash, phone)
 SELECT *
 FROM users;
 
