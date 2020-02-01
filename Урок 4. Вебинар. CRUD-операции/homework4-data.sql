@@ -1,103 +1,35 @@
 USE vk;
 
-INSERT IGNORE INTO `users` VALUES
-('1','Kurtis','Schmeler','stephanie92@example.org','a36812c6c3bd83f0ebd3d630582138e66211aa05','882-091-8437'),
-('2','Antoinette','Willms','zemlak.bulah@example.org','4f1c4797c31103c12b7a6119cc29e4d51b73a099','976-659-1811'),
-('3','Jarod','Ratke','sorn@example.net','e6c5d9db1c847ca287bea0ff116449cfaed412da','564.892.4842'),
-('4','Thelma','Altenwerth','ronny36@example.com','3c50330596894f4b86b635b1e0a3d71044abbff8','1-473-901-67'),
-('5','Zora','Veum','felicity13@example.org','3b33cfad95f232ab505e795e67409065e6ad80ee','038.352.3772'),
-('6','Rosina','Kovacek','loraine.bednar@example.com','204612ccbf879a15cbf9bbe2b7b3c77ab7f20397','439-394-9011'),
-('7','Emmet','Ernser','herminia04@example.com','c38b3a5a28990b399ed828be8cd36025a271b05e','05924848633'),
-('8','June','Keeling','anthony.hilpert@example.net','f17fb29f758cc40b7994f712d9ec3ba7cda7c1c1','1-546-283-19'),
-('9','Alexanne','Ledner','gonzalo.krajcik@example.net','bde9c66466c43624be327a8e860cf92b2fb5baa7','664-452-2724'),
-('10','Durward','Trantow','river.kiehn@example.net','bba08022046d0c1d103cabe70f978022c2a13b94','1-801-180-37'),
-('11','Laura','Schamberger','nyah.lueilwitz@example.org','3a5a12d8f65c7a21e767f535b46de3d5e07a9056','(801)434-284'),
-('12','Kayley','Jakubowski','iberge@example.com','754c7c9c1253415f24575539e42a492b99f93ba0','823-523-5393'),
-('13','Jerel','Mayer','bfisher@example.com','4514771349837999eb87784c30643389eed85b3b','748-451-6421'),
-('14','Wilson','Willms','miguel59@example.net','3e11ca5354c2809281bf86ae7173815179ce2015','+87(7)614082'),
-('15','Breanne','Maggio','kamille13@example.net','09ea26d2b47f767636240a02ea93d86bdae60521','213-441-9134'),
-('16','Adrianna','Adams','frances61@example.com','d64944cd43c7e216f42e7bad1e385ab65bdfdfdd','(780)386-218'),
-('17','Cletus','Erdman','bethel00@example.org','795f6400ba83a50dc47ea7c5e323048370176d4a','1-092-705-46'),
-('18','Bobbie','King','randi.pagac@example.com','8e4885eed8350e73e08d1adec315a8ffe07b0b01','06746802887'),
-('19','Cleve','Balistreri','waelchi.sabina@example.net','42f4504596bda2e086ccf7f73a4bd103ab139328','(343)466-293'),
-('20','Gwen','Kunze','cordell22@example.com','f9466f7af17fa96ea5e28f57e284c8ab8470107f','561.571.8733'),
-('21','Karen','Bradtke','hammes.adriana@example.net','ab29f305fa786b54d43315fc0d81f7f007518169','(404)368-634'),
-('22','Johanna','McDermott','jacky.marvin@example.net','7f62931f59deea7177096050b5a72d052a1f8bb1','934.132.8069'),
-('23','General','Anderson','mylene33@example.net','390c66de56003b2b94dabdd58f3709f1e940ebc2','(301)121-498'),
-('24','Dallin','Wiza','orin90@example.com','2aee4c1d49f2c9a4b08a240197854c737f097476','07890510799'),
-('25','Consuelo','Kassulke','sschuppe@example.net','dc42f03844d26b5a48237c0447b405ad62b1324f','070.331.7264'),
-('26','Steve','Swaniawski','macejkovic.lilly@example.com','d1294a985836a63b9c058d9a2f23211c447404ad','012-410-4110'),
-('27','Pascale','Roberts','jbogisich@example.org','346d75c70613ffd8997fb040de659c26031254ab','1-897-400-78'),
-('28','Marge','Cummings','azulauf@example.com','814852203bf5715bfd4ee31db672dc6f294709b6','(464)905-639'),
-('29','Houston','Emard','kemmerich@example.org','b4b868c4ff2a7eb15c64eb49420b3518a3efde47','08279540049'),
-('30','Werner','Emard','ydurgan@example.net','e0eac47b7cbc87ef71fd8c99d6fc501782c24d15','1-582-136-04'),
-('31','August','Huels','greenfelder.lenora@example.net','9e78f67b58aa17b78660c37e5d67bdf3189ce11b','1-320-314-72'),
-('32','Leonard','Hauck','mlind@example.com','8ed9fde1dbd5d17b4e8bbfa2ba99a69c432d60d1','750.776.1871'),
-('33','Hortense','Morar','cgorczany@example.com','e7e7d9a64d9cabf0b920a041e6181475dc8a557a','1-688-326-85'),
-('34','Delmer','Cormier','yschimmel@example.org','04c149851a7c2a72420c8f58c86e2345b82e7c8a','+20(5)487925'),
-('35','Fern','Schiller','elta.dach@example.org','6606ed7db38a664bd31e1736aca127f0cf43408e','021-474-3626'),
-('36','Raheem','Gutmann','harber.lottie@example.net','e48eea5f44ac6b85a22d4e79d52718ad504dbdbd','679.731.6021'),
-('37','Monserrat','Harris','ronny10@example.net','8eb26ccaf530f64499bedb0ebeacd98aa593e5e6','(728)762-984'),
-('38','Clare','Mante','uhilpert@example.com','07270531028a62249b2ceee57e418dd25100371a','032.206.4994'),
-('39','Thora','Walker','alexandro48@example.net','7a7f5dd1f9c62683b910ae2a001d86b76e499506','137.702.7984'),
-('40','Dillan','Glover','xrosenbaum@example.org','8f1f64a79c6d6865f3081841f13f12c538dff808','(012)526-364'),
-('41','Kolby','Casper','hartmann.neva@example.com','cea1f332113d5581f7c61802578e01c6dd9dc65f','(484)752-080'),
-('42','Antonietta','Waelchi','jarred.torphy@example.com','0143b83163cbc6eade32e4077be37712f39f5eda','083-203-3533'),
-('43','Anjali','Wiegand','era.baumbach@example.net','4452c82895ffcc79c63c41985ffeff45ccc0f70d','627-267-3639'),
-('44','Schuyler','Langworth','yfeeney@example.com','1212abef1b65881007139cd6833b799115e5c364','912.237.6181'),
-('45','Laurie','Emard','jessie.bradtke@example.com','b687a3f33c65a745aa13c293ed01f4b276b15bb7','(281)425-233'),
-('46','Arielle','Stehr','emelia.armstrong@example.org','d450bca91fffa5925c7af640d6b08008f547f7bb','462-492-5704'),
-('47','Delphia','Kiehn','baumbach.milford@example.com','78b6b0b4c3f34b8624f265a18da9dfe0ec1c2fd8','+30(7)183981'),
-('48','Oral','Dibbert','mclaughlin.jerome@example.org','72f46e948e93492b14405b7cd4cf0fd7d8ac06ac','663-453-9167'),
-('49','Terrell','Kiehn','gleason.juwan@example.net','782dd6e51f48a666486d5cb8b4d4401ee5bdeb1c','1-461-808-10'),
-('50','Austin','Feest','adrain09@example.org','0e6230e7580705b279ed4654b9bf531ee8088558','(935)455-360'),
-('51','Jayce','Hermiston','glenda.runte@example.org','3c326abe602d60300022b0a460380f80a7c8cf60','1-123-753-85'),
-('52','Mustafa','Goldner','hartmann.jessie@example.net','f4d877c5912f5dc2c67c5a1dfb8b58fccd4ebe2c','(302)466-032'),
-('53','Allene','Rau','jacques.orn@example.org','d5b57cc0240ef08cee80a1a6fa3c861efb531e93','215.692.1072'),
-('54','David','Robel','walter18@example.com','ec9570cd271c640f63ba9837ca3a08468303ad3d','614-229-8149'),
-('55','Lemuel','Klocko','magdalena.quitzon@example.org','45146ed6a01280d944af74f364c6d7bab387ba34','04094461610'),
-('56','Darian','Ankunding','katelyn.wiza@example.com','c521d761c32cb0927df2634fd5f3163ccc67ee85','667-620-6396'),
-('57','Damien','Fahey','schultz.otto@example.org','1eb1cb4bf1b2ac4d30f3ef80fe018240f91d3812','1-764-038-95'),
-('58','Emmett','Bashirian','wmarquardt@example.org','6a04823dd0fb5000e34836b79c8567d8772924a7','04196972891'),
-('59','Alford','Hilpert','jacobs.deshawn@example.net','eec9649c4a94b5fe293e94162c728be45b71bf03','140-394-5556'),
-('60','Crystal','Cummings','pattie.lynch@example.net','f40f3d8d8dc7ad9c40bfa93a1df884ffca3addac','447.607.1093'),
-('61','Theodore','Hyatt','genevieve.o\'keefe@example.com','ead594d73c92eda93d8517cdfbce7b641bc2f596','733-609-8275'),
-('62','Marcellus','Douglas','alvina.conn@example.net','7cd6287638dc1af2b420430a9938ca5486b56a8b','1-997-826-64'),
-('63','Elva','Crona','mlarkin@example.org','83d0cbefdbcf205ce095d5359fd34be41df79865','105-846-1347'),
-('64','Janick','Ratke','brock52@example.org','f755a11a80a8c984f77d0ae1802515635171fd2f','05804072145'),
-('65','Cornelius','Hackett','qhaag@example.com','ee4ea69bdb81ec3033ae1e5e93ba7cfcf4283018','222.134.0366'),
-('66','Pansy','Moore','walker.maximillia@example.org','776642c037f2471552d378c165f0eac24e53cc12','524-036-6125'),
-('67','Freeman','Grady','sean45@example.net','241eeab15fb170c4a7cc3d773d72eee650983f2e','(926)991-712'),
-('68','Angelita','Homenick','trevion73@example.com','eed90da62d25d92cd758cf9846ed848c545078fa','(869)660-182'),
-('69','Ozella','Roob','fgreenholt@example.com','fda121a9b0773106c1355cb5657773810fa7b813','406.052.1135'),
-('70','Sandra','Nicolas','waters.tressa@example.com','685c2099b788f15169f6dbc53bc8619ccdb4226d','276.431.6561'),
-('71','Jovanny','Turner','lori.white@example.org','c57483feb8ebac9ab2c2bb0b4fe519b45c7b7b83','411.708.4017'),
-('72','Christian','Carroll','anna32@example.com','335bd6ccc6ad863fa8967acbbcceb3d9066be879','+46(5)339624'),
-('73','Regan','Lowe','tanner.rodriguez@example.com','eb9643642a3852fd099d74c381c42e41c686cf2b','(583)256-060'),
-('74','Cindy','Funk','elena.conn@example.net','9b1a770ff58e88f1f5b9849035123748fe6d20b9','353-137-7160'),
-('75','Hellen','Schamberger','gretchen42@example.org','ce86cda89155266f55eb26a832d4c6493e787ea7','600.853.5877'),
-('76','Carrie','Mitchell','eva49@example.org','c6be5d18f9eb0175013f9d53fbf9dbb1f86c3d9f','927-238-7271'),
-('77','Madyson','Schmeler','ritchie.carson@example.com','4695781e09947881003b9c37a93e2f8f49360ae5','497-067-0935'),
-('78','Chyna','Bailey','jacky.d\'amore@example.net','2cf39655c35a962bf6e75ccb1cc87868cf2842ad','1-225-169-40'),
-('79','Dereck','Emmerich','dschiller@example.com','b2a6b32381f94f6fd809d9029c10b251da35b461','(601)305-439'),
-('80','Buford','Jenkins','lindgren.keagan@example.org','8ca9ce73f09c53cc267467c3614ea7658276a769','+38(2)224821'),
-('81','Jalen','Bayer','ibartoletti@example.com','ca8cb5afe1d3a92c4584a9f34b80f8af5acde863','00074696156'),
-('82','Oliver','Maggio','salvatore.blanda@example.com','6d661e2558681037f838ac81b82d6de1ee548aff','(147)753-609'),
-('83','Reba','Altenwerth','eriberto.zemlak@example.org','b6c5129c187bae26afd9c557a012e6f995412f2c','05760612536'),
-('84','Arely','Roberts','consuelo01@example.com','83a684bfff8c55e25ee563850762f1dd40fb57b6','(636)556-219'),
-('85','Mateo','Lakin','mccullough.andrew@example.net','f92f66dc96fc1be2180a78f0172ad8e2d8c6ba88','403.238.3318'),
-('86','Margarette','Collier','francesco93@example.com','e2b6519dafca9121379641d6f28eca6151f7d0ec','(407)475-626'),
-('87','Cristina','Pfannerstill','qdavis@example.com','3efa085cdfb52a92082034f33290e70d964bda00','1-584-655-02'),
-('88','Newton','Baumbach','jacobson.olin@example.org','77cabcaefb30a1b291484f93da5ce1916bf40063','430-134-4531'),
-('89','Tina','Daniel','sgerlach@example.net','a0890a9cf79554620703abaed42bf62f2f4288c6','(714)467-217'),
-('90','Sylvia','Ratke','iemmerich@example.com','44da1f836c938d81a4a176c8d8c201da7c7eb8a2','+19(8)025131'),
-('91','Demond','Sauer','eulah.barrows@example.net','f68ab1ef100522dad2c48e6ab3adf3eaf9360394','824.320.2305'),
-('92','Gillian','Jacobi','bins.yesenia@example.org','b04ede522d96715e011f419be1e495c26ccb7346','724.751.1496'),
-('93','Izaiah','Berge','jones.talia@example.com','5ea7320573a28ee1304ce2146f40c009696ce7f9','235.225.2756'),
-('94','Aiden','Nitzsche','cassin.eugenia@example.net','85f6b5338f3c28dac4ae46ffb98c59d077d11bad','667-316-7667'),
-('95','Mireille','Rodriguez','camryn88@example.com','4b378f14a9ce84bd7923d8bcc10f73b70b7f134b','181.359.7785'),
-('96','Jeffry','Wehner','ulises.glover@example.org','dd367334bb9e41ace3588911b2e9e9f63b3282f8','108-066-2562'),
-('97','Jerrell','Wyman','ally.wisoky@example.net','95ac9f2c54a49e80c0aac0669d9e1a4644608064','(429)446-315'),
-('98','Walker','Morar','wlynch@example.org','3a1d986a0dff90d4e4539417f91aa753065409e2','(277)565-745'),
-('99','Timothy','Kilback','fredrick93@example.net','39928817cfd782e5dd1b595d4ecc94bd1190bada','(173)802-990'),
-('100','Herminia','Kunze','qherzog@example.com','764a5c038c03659840ad78b12359a78009c23e8e','1-481-670-51');
+-- ii. Написать скрипт, возвращающий список имен (только firstname) пользователей без повторений в алфавитном порядке
+
+SELECT DISTINCT firstname
+FROM users
+ORDER BY firstname;
+
+
+/* iii. Написать скрипт, отмечающий несовершеннолетних пользователей как неактивных (поле is_active = false).
+Предварительно добавить такое поле в таблицу profiles со значением по умолчанию = true (или 1) */
+
+ALTER TABLE profiles
+ADD COLUMN is_active BOOL DEFAULT TRUE;
+
+UPDATE profiles
+SET
+    is_active = FALSE
+WHERE
+    (((YEAR(NOW()) - YEAR(birthday)) * 12 + MONTH(NOW()) - MONTH(birthday)
+    - IF(DAYOFMONTH(NOW()) > DAYOFMONTH(birthday), 0, 1)) / 12) < 18;
+
+SELECT *
+FROM profiles
+WHERE is_active = FALSE;
+
+
+-- iv. Написать скрипт, удаляющий сообщения «из будущего» (дата позже сегодняшней)
+
+DELETE FROM messages
+WHERE created_at > NOW();
+
+SELECT *
+FROM messages
+WHERE created_at > NOW();
