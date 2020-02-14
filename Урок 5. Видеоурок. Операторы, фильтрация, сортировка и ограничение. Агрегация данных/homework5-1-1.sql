@@ -7,7 +7,7 @@ ADD 'created_at' VARCHAR(19),
 ADD 'updated_at' VARCHAR(19);
 
 UPDATE users
-SET 'created_at' = NOW(),
-    'updated_at' = NOW();
+SET created_at = NOW(),
+    updated_at = NOW();
 
-SELECT 'created_at', 'updated_at' FROM users;
+SELECT created_at, updated_at FROM users;
