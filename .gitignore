@@ -1,2 +1,5 @@
 
 .idea
+.dbeaver/project-metadata.json
+.project
+.settings/org.eclipse.core.resources.prefs
